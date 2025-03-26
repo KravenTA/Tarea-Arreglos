@@ -8,12 +8,14 @@ import java.util.Arrays;
 import umg.edu.gt.desarrollo.estructuradedatos2025.clases.ClaseVectores;
 import umg.edu.gt.desarrollo.estructuradedatos2025.ejercicios.EjercicioVectores;
 
+import lombok.*;
+
 /**
  *
  * @author wcordova
  */
 public class EstructuraDeDatos2025 {
-
+	
     public static void main(String[] args) {
         
     }
@@ -35,4 +37,7 @@ public class EstructuraDeDatos2025 {
         System.out.println("Puntuación: " + ejercicio1.findTotal(numbers2));
         System.out.println("Puntuación: " + ejercicio1.findTotal(numbers3));
     }
+    
+   
+    
 }
